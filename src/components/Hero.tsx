@@ -35,7 +35,7 @@ export default function Hero() {
         {/* Hero image - right side, extends to viewport edge */}
         <div className="w-full lg:w-1/2 flex items-center">
           <Image
-            src="/images/Platform-OG_image-Envoy-260130_s2.webp"
+            src="/images/Platform-OG_image-Envoy-260130.webp"
             alt="Envoy workplace management platform"
             width={750}
             height={500}
