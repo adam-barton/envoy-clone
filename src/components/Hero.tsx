@@ -6,13 +6,13 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-envoy-purple">
       <div className="flex flex-col lg:flex-row items-stretch">
         {/* Text content - left side, constrained to max-width */}
-        <div className="w-full lg:w-1/2 py-12 animate-fade-in-up">
+        <div className="w-full lg:w-1/2 py-12">
           <div className="max-w-[640px] ml-auto px-6 lg:pr-12">
             <h1 className="text-[36px] sm:text-[44px] lg:text-[56px] font-bold leading-[1.08] tracking-[-0.02em] text-envoy-white">
               Power workplace operations with one connected platform
             </h1>
 
-            <p className="mt-6 text-lg lg:text-xl text-envoy-white max-w-[520px] leading-relaxed animate-fade-in-up animation-delay-200">
+            <p className="mt-6 text-lg lg:text-xl text-envoy-white max-w-[520px] leading-relaxed animate-fade-in-up">
               Envoy unifies visitors, spaces, and communications into one
               enterprise-ready workplace management platform and ecosystem—so teams
               can operate securely, stay compliant, and scale with confidence.
