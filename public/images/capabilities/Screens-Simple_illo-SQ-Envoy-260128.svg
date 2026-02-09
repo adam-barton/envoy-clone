@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 110.01 110">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #e5e7f0;
+      }
+
+      .cls-3 {
+        fill: #3d4452;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #c8cad4;
+      }
+
+      .cls-6 {
+        fill: #eaeaef;
+      }
+
+      .cls-7 {
+        fill: #e40603;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="109" x2="110" y2="109" gradientTransform="translate(0 164) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#ff9655"/>
+      <stop offset=".75" stop-color="#fa4338"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-1" width="110" height="110"/>
+  <g>
+    <g>
+      <g>
+        <path class="cls-3" d="M20.63,90.99h-4.15c-.62,0-1.12-.5-1.12-1.12v-4.42h6.39v4.42c0,.62-.5,1.12-1.12,1.12Z"/>
+        <path class="cls-3" d="M93.75,90.99h-4.15c-.62,0-1.12-.5-1.12-1.12v-4.42h6.39v4.42c0,.62-.5,1.12-1.12,1.12Z"/>
+      </g>
+      <g>
+        <g>
+          <rect class="cls-4" x=".23" y="24.82" width="109.77" height="61.75" rx="6.74" ry="6.74"/>
+          <path class="cls-6" d="M103.26,30.44c.62,0,1.12.5,1.12,1.12v48.27c0,.62-.5,1.12-1.12,1.12H6.97c-.62,0-1.12-.5-1.12-1.12V31.56c0-.62.5-1.12,1.12-1.12h96.3M103.26,24.82H6.97c-3.72,0-6.74,3.02-6.74,6.74v48.27c0,3.72,3.02,6.74,6.74,6.74h96.3c3.72,0,6.74-3.02,6.74-6.74V31.56c0-3.72-3.02-6.74-6.74-6.74h-.01Z"/>
+        </g>
+        <g>
+          <path class="cls-7" d="M55.12,71.41h0c-8.68,0-15.72-7.04-15.72-15.72h0c0-8.68,7.04-15.72,15.72-15.72h0c8.68,0,15.72,7.04,15.72,15.72h0c0,8.68-7.04,15.72-15.72,15.72Z"/>
+          <path class="cls-4" d="M52.16,62.75l10.61-5.93c.62-.36.62-1.28,0-1.64l-10.61-5.93c-.62-.36-1.39.09-1.39.82v11.86c0,.73.77,1.18,1.39.82Z"/>
+        </g>
+      </g>
+    </g>
+    <rect class="cls-2" x="5.84" y="51.62" width="26.81" height="8.98"/>
+    <rect class="cls-5" x="9.48" y="36" width="23.17" height="8.98"/>
+    <rect class="cls-2" x="9" y="66.41" width="23.66" height="8.98"/>
+    <rect class="cls-2" x="77.58" y="51.62" width="21.81" height="8.98"/>
+    <rect class="cls-5" x="77.58" y="36" width="21.81" height="8.98"/>
+    <rect class="cls-2" x="77.58" y="66.41" width="21.81" height="8.98"/>
+  </g>
+  <g>
+    <g>
+      <path class="cls-3" d="M93.75,90.99h-4.15c-.62,0-1.12-.5-1.12-1.12v-4.42h6.39v4.42c0,.62-.5,1.12-1.12,1.12Z"/>
+      <g>
+        <path class="cls-4" d="M103.26,24.82h-28.78v61.75h28.78c3.72,0,6.74-3.02,6.74-6.74V31.56c0-3.72-3.02-6.74-6.74-6.74Z"/>
+        <path class="cls-6" d="M103.26,24.82h-28.78v5.61h28.78c.62,0,1.12.5,1.12,1.12v48.27c0,.62-.5,1.12-1.12,1.12h-28.78v5.61h28.78c3.72,0,6.74-3.02,6.74-6.74V31.56c0-3.72-3.02-6.74-6.74-6.74Z"/>
+      </g>
+    </g>
+    <rect class="cls-2" x="77.58" y="51.62" width="21.81" height="8.98"/>
+    <rect class="cls-5" x="77.58" y="36" width="21.81" height="8.98"/>
+    <rect class="cls-2" x="77.58" y="66.41" width="21.81" height="8.98"/>
+  </g>
+</svg>

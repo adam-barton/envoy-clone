@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+/* stylelint-disable-next-line at-rule-no-unknown */
+@theme {
+  --color-envoy-black: #0d0d0d;
+  --color-envoy-dark: #1a1a1a;
+  --color-envoy-charcoal: #2a2a2a;
+  --color-envoy-gray: #6b6b6b;
+  --color-envoy-light: #f5f5f3;
+  --color-envoy-cream: #f6f6f9;
+  --color-envoy-white: #ffffff;
+  --color-envoy-purple: #4141a2;
+  --color-envoy-purple-dark: #333380;
+  --color-envoy-purple-light: #e8e8f5;
+  --color-envoy-red: #fa4338;
+  --color-envoy-red-dark: #e03a30;
+  --color-envoy-green: #d3d236;
+  --color-envoy-green-dark: #b8be04;
+  --color-envoy-coral: #ff6b6b;
+  --color-envoy-blue: #c3eaf2;
+
+  --font-display: var(--sofia-pro), sans-serif;
+  --font-body: var(--sofia-pro), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Font smoothing & iframe border reset */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -o-font-smoothing: antialiased;
+}
+
+iframe {
+  border: none;
+}
+
+body {
+  font-family: var(--sofia-pro), sans-serif;
+  color: var(--color-envoy-black);
+  background: var(--color-envoy-white);
+}
+
+/* CookieBot logo hiding */
+a#CybotCookiebotDialogPoweredbyCybot,
+div#CybotCookiebotDialogPoweredByText {
+  display: none;
+}
+
+#CookiebotWidget .CookiebotWidget-body .CookiebotWidget-main-logo {
+  display: none;
+}
+
+/* Marketo form styles */
+.mktoForm .iti .int-phone {
+  padding-left: 65px !important;
+  height: 44px;
+  line-height: 44px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.mktoForm .iti--separate-dial-code.iti--show-flags .iti__selected-dial-code { margin-right: 4px; }
+.mktoForm .iti__selected-flag { width: 60px !important; padding: 5px !important; }
+.mktoForm .iti__country-list { z-index: 9999 !important; }
+
+/* Logo ticker animation */
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.logo-ticker {
+  animation: ticker 40s linear infinite;
+}
+
+.logo-ticker:hover {
+  animation-play-state: paused;
+}
+
+/* Fade in animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.7s ease-out forwards;
+  opacity: 0;
+}
+
+.animation-delay-100 { animation-delay: 0.1s; }
+.animation-delay-200 { animation-delay: 0.2s; }
+.animation-delay-300 { animation-delay: 0.3s; }
+.animation-delay-400 { animation-delay: 0.4s; }
+.animation-delay-500 { animation-delay: 0.5s; }
+
+/* Accordion */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+}
+
+.accordion-content.open {
+  max-height: 600px;
+}
